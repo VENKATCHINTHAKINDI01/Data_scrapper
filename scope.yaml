@@ -1,0 +1,154 @@
+# C2-24 data collection scope — edit this, the tools read it.
+# Department codes as in the GOIR department list (checked 16 Oct 2026): FIN01, GAD01, ESE01.
+
+# DECISIONS (16 Oct 2026): Finance, School Education, GAD · 2018–2025 (corpus as of 31-12-2025) · all G.O.(Ms) that pass the filters (estimate 16 Oct: 645 = FIN01 246, GAD01 264, ESE01 135; ~550 real rules) plus cited orders · 100 synthetic e-files
+# with real department names and synthetic content · no official department data is coming: collect public data,
+# generate what cannot be found (every claim backed by a quote from a real order).
+departments:
+  FIN01:                        # includes sub-wings FIN01-P (PMU) and FIN01-W (Works & Projects)
+    name: FINANCE
+    aliases: ["Finance", "FINANCE", "Fin.", "Fin"]
+    verified: true
+  GAD01:
+    name: GENERAL ADMINISTRATION
+    aliases: ["General Administration", "GENERAL ADMINISTRATION", "G.A.", "G.A"]
+    verified: true
+  USD01:                        # SYNTHETIC department used only by the seed / mock corpus
+    name: URBAN SERVICES
+    aliases: ["Urban Services", "URBAN SERVICES"]
+    synthetic: true
+  ESE01:                        # confirmed from the GOIR department list, 16 Oct 2026
+    name: SCHOOL EDUCATION
+    aliases: ["School Education", "SCHOOL EDUCATION"]
+    verified: true
+
+from_date: 2018-01-01
+to_date: 2025-12-12           # last day the Internet Archive mirror carries (seen 14 Oct 2026)
+archive_latest: 2025-12-12
+# The corpus is frozen AS OF this date: answers say "as of 31-12-2025"; no 2026 orders are collected;
+# synthetic e-files must be dated on or before it (generate_efiles.py enforces this).
+as_of: 2025-12-31
+# Orders held back from the corpus and ingested live in the demo ("new order arrives -> open files flagged").
+# Pick with tools/find_holdback.py after the 2025 batch; they are moved to staging/holdback/.
+demo_holdback: []
+order_types: [Ms]               # decided 16 Oct 2026: Ms only (filtered Rt orders are almost all individual cases); Rt only when cited
+per_department_limit: 300          # cap only; above every department's estimate, so nothing that passes is dropped
+
+# Topics to keep (matched at word starts in the abstract, case-insensitive).
+# Rule-like orders only; individual postings/promotions are skipped unless --all-topics.
+# Plain "transfer" removed: it matched money transfers ("Quick Transfers"). Budget estimates and
+# Appropriation Acts are deliberately not kept (no conflict value for C2-24).
+keep_topics:
+  - pay scale
+  - pay revision
+  - revised pay
+  - pay fixation
+  - pension
+  - family pension
+  - gratuity
+  - provident fund
+  # abbreviations used in CAG/PAG titles (18 Oct): "RPS 2015_GO No.51", "DR @ 54.784%", "DR to pensioners"
+  - rps
+  - dr @
+  - dr to
+  - dr from
+  - da to
+  - da from
+  - dearness
+  - allowance
+  - general transfer
+  - transfers of employees
+  - transfers of staff
+  - transfers of officers
+  - transfer of employees
+  - transfers and postings
+  - code
+  - amendment
+  - procedure
+  - regulations
+  - superannuation
+  - service rules
+  - rules
+  - guidelines
+  - instructions
+  - recruitment
+  - delegation of powers
+  - delegation of financial powers
+  - delegate the powers
+  - financial powers
+  - outsourc
+  - contract
+  - contributory pension
+  - ban on
+  - loans and advances
+  - comprehensive budget release   # the guidelines order; single Budget Release Orders are not kept
+  # School Education (ESE01)
+  - transfers of teachers
+  - teacher transfers
+  - rationalisation
+  - rationalization
+  - academic calendar
+  - admission
+  - right of children
+  - service conditions
+  # General Administration (GAD01)
+  - secretariat service
+  - conduct rules
+  - office procedure
+  - e-office
+  - reservation
+  - roster
+
+# Never keep (individual cases and events), even when a keep topic matches — e.g. pension-cut penalties
+# that cite "rule 9 of the A.P. Revised Pension Rules" (seen in ESE01 2024 dry run).
+skip_topics:
+  - departmental proceedings
+  - disciplinary case
+  - disciplinary action
+  - disciplinary proceedings against
+  - disciplinary proceedings dropped
+  - allegation
+  - imposition of penalty
+  - penalty of
+  - cut in pension
+  - dismiss
+  - removal from service
+  - compulsory retirement
+  - articles of charge
+  - suspension of
+  - prosecution
+  - death anniversary
+  - observance of
+  - visit of
+  - state functions
+  - screening committee
+  - panel of
+  - promotion to the post
+  - promotion of
+  - promoted to
+  - retiring from service
+  - retirement of
+  - medical reimbursement
+  - in respect of sri
+  - in respect of smt
+  - forwarding of               # PAG forwarding letters carry another order's number (CAG list, 18 Oct)
+  - postings of certain          # IAS/officer posting lists (GOMS-2200-2022, 16 Oct)
+  # one-off sanctions (16 Oct sample: ~1 in 5 kept Ms orders were these)
+  - appointment of (
+  - administrative sanction for
+  - creation of (
+  - permission for filling
+  - filling up of
+  - filling-up of
+  - members delegation
+
+# Regex exclusions (case-insensitive). An abstract naming one person (Sri/Smt/Kum./Dr. + name) is an individual case.
+# Committee/commission names ("Sri Padmanabhan Committee") are removed first, so they do not count as a person.
+skip_patterns:
+  - '\b(?:sri|smt|kum)\b\.?\s*[a-z]'      # "Sri X", "Smt.M.Rama Devi" (no space), "Kum. D.Padma"
+  - '\bdr\.\s*[a-z]'                      # "Dr. X" / "Dr.X" (needs the dot, so "drawal" is safe)
+
+# Politeness
+sleep_seconds:
+  archive: 1
+  aputf: 10

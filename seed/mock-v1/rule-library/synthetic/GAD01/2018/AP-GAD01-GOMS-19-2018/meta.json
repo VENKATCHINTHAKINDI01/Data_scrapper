@@ -1,0 +1,38 @@
+{
+  "canonical_id": "AP-GAD01-GOMS-19-2018",
+  "doc_type": "Government Order",
+  "instrument": "G.O.(Ms)",
+  "number": "19",
+  "date": "2018-02-09",
+  "date_raw": "09-02-2018",
+  "department_code": "GAD01",
+  "department_name": null,
+  "section": "SER.A",
+  "subject": "Secretariat Service – Transfers and Postings of Officers in the Secretariat Departments – Competent authority – Orders – Issued.",
+  "hierarchy_level": 4,
+  "classification": "UNCLASSIFIED",
+  "status": "active",
+  "effective_from": "2018-02-09",
+  "effective_to": null,
+  "read_list": [
+    "G.O.Ms.No.304, General Administration (Ser.A) Department, Dt.17-09-2009."
+  ],
+  "language": "en",
+  "origin": "synthetic",
+  "source_name": "C2-24 mock corpus v1",
+  "source_url": "mock://documents/02_GAD_Services/D09_GAD01-GOMS-19-2018_scan.pdf",
+  "archive_identifier": null,
+  "verification_status": "synthetic",
+  "parse_confidence": "ground-truth",
+  "files": {
+    "original": "order.pdf",
+    "ocr": "ocr.txt"
+  },
+  "ingest_path": "ocr",
+  "file_no": "GAD01-SERA0(DEL)/1/2018",
+  "computer_no": "0987412",
+  "sha256": "551ee07d5e1546fe9a7d83a51d7fd101bc2610da29031398ec275d8f5345753a",
+  "ocr_source": "ground-truth text (clean)",
+  "collected_at": "2026-10-02T00:00:00+05:30",
+  "collector": "tools/seed_from_mock.py"
+}

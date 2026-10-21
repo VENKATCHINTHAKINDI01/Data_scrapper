@@ -1,0 +1,35 @@
+{
+  "root": "seed/mock-v1",
+  "documents": {
+    "rule-library/synthetic/FIN01/2019/AP-FIN01-GOMS-62-2019": [],
+    "rule-library/synthetic/FIN01/2019/AP-FIN01-GOMS-71-2019": [],
+    "rule-library/synthetic/FIN01/2020/AP-FIN01-GOMS-40-2020": [],
+    "rule-library/synthetic/FIN01/2022/AP-FIN01-GOMS-88-2022": [],
+    "rule-library/synthetic/FIN01/2024/AP-FIN01-CIRMEMO-FIN01HROPDPPOUTS-7-2024-D20240327": [],
+    "rule-library/synthetic/FIN01/2025/AP-FIN01-GOMS-31-2025": [],
+    "rule-library/synthetic/FIN01/2025/AP-FIN01-GORT-1184-2025": [],
+    "rule-library/synthetic/FIN01/2025/AP-FIN01-MEMO-FIN01HRPLG0TRF-3-2025-2-D20250521": [],
+    "rule-library/synthetic/GAD01/2018/AP-GAD01-GOMS-19-2018": [],
+    "rule-library/synthetic/GAD01/2023/AP-GAD01-CIRMEMO-GAD01SERA0-3-2023-D20230814": [],
+    "rule-library/synthetic/USD01/2020/AP-USD01-SO-2-2020": [],
+    "rule-library/synthetic/USD01/2021/AP-USD01-GOMS-14-2021": [],
+    "rule-library/synthetic/USD01/2023/AP-USD01-CIRMEMO-USD01WRKS0-9-2023-D20230711": [],
+    "rule-library/synthetic/USD01/2024/AP-USD01-GOMS-27-2024": [],
+    "rule-library/synthetic/USD01/2024/AP-USD01-GORT-233-2024": [],
+    "rule-library/synthetic/USD01/2025/AP-USD01-RC-USD01WRKS0-22-2025-D20250602": []
+  },
+  "efiles": {
+    "efiles/USD01/ESTT.I/USD01-12_19_2026-ESTT.I": [],
+    "efiles/USD01/ESTT.I/USD01-12_31_2022-ESTT.I": [],
+    "efiles/USD01/ESTT.I/USD01-12_3_2025-ESTT.I": [],
+    "efiles/USD01/ESTT.I/USD01-12_44_2025-ESTT.I": [],
+    "efiles/USD01/ESTT.I/USD01-12_58_2025-ESTT.I": [],
+    "efiles/USD01/ESTT.I/USD01-12_77_2023-ESTT.I": [],
+    "efiles/USD01/ESTT.I/USD01-14_6_2026-ESTT.I": [],
+    "efiles/USD01/VIG/USD01-31_4_2025-VIG": [],
+    "efiles/USD01/VIG/USD01-31_9_2025-VIG": [],
+    "efiles/USD01/WORKS/USD01-WRKS0_18_2023-WORKS": [],
+    "efiles/USD01/WORKS/USD01-WRKS0_30_2026-WORKS": [],
+    "efiles/USD01/WORKS/USD01-WRKS0_52_2024-WORKS": []
+  }
+}

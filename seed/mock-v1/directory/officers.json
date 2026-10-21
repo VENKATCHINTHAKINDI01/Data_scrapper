@@ -1,0 +1,82 @@
+[
+  {
+    "user_id": "U01",
+    "label": "Officer A — Section Officer",
+    "designation": "Section Officer (Estt.I)",
+    "role_rank": "1",
+    "department": "USD01",
+    "section": "ESTT.I",
+    "clearance": "RESTRICTED",
+    "assigned_files": ""
+  },
+  {
+    "user_id": "U02",
+    "label": "Officer B — Assistant Secretary",
+    "designation": "Assistant Secretary (Estt.)",
+    "role_rank": "2",
+    "department": "USD01",
+    "section": "ESTT.I",
+    "clearance": "CONFIDENTIAL",
+    "assigned_files": ""
+  },
+  {
+    "user_id": "U03",
+    "label": "Officer C — Section Officer",
+    "designation": "Section Officer (Works)",
+    "role_rank": "1",
+    "department": "USD01",
+    "section": "WORKS",
+    "clearance": "RESTRICTED",
+    "assigned_files": ""
+  },
+  {
+    "user_id": "U04",
+    "label": "Officer D — Section Officer",
+    "designation": "Section Officer (Vigilance)",
+    "role_rank": "1",
+    "department": "USD01",
+    "section": "VIG",
+    "clearance": "CONFIDENTIAL",
+    "assigned_files": "USD01-31/4/2025-VIG;USD01-12/58/2025-ESTT.I"
+  },
+  {
+    "user_id": "U05",
+    "label": "Officer E — Deputy Secretary",
+    "designation": "Deputy Secretary",
+    "role_rank": "3",
+    "department": "USD01",
+    "section": "ALL",
+    "clearance": "CONFIDENTIAL",
+    "assigned_files": ""
+  },
+  {
+    "user_id": "U06",
+    "label": "Officer F — Secretary",
+    "designation": "Secretary to Government",
+    "role_rank": "5",
+    "department": "USD01",
+    "section": "ALL",
+    "clearance": "SECRET",
+    "assigned_files": ""
+  },
+  {
+    "user_id": "U07",
+    "label": "Officer G — Section Officer",
+    "designation": "Section Officer (HR.I)",
+    "role_rank": "1",
+    "department": "FIN01",
+    "section": "HR.I",
+    "clearance": "RESTRICTED",
+    "assigned_files": ""
+  },
+  {
+    "user_id": "U08",
+    "label": "Officer H — Assistant Secretary",
+    "designation": "Assistant Secretary (Ser.A)",
+    "role_rank": "2",
+    "department": "GAD01",
+    "section": "SER.A",
+    "clearance": "CONFIDENTIAL",
+    "assigned_files": ""
+  }
+]

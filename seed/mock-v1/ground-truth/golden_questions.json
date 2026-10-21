@@ -1,0 +1,406 @@
+[
+  {
+    "id": "Q01",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "Has a spouse-ground transfer request like Sri Ch. Naveen Kumar's been decided before?",
+    "expected_docs": [
+      "D17",
+      "D18",
+      "D19"
+    ],
+    "forbidden_docs": [
+      "D20",
+      "D21",
+      "D22"
+    ],
+    "expected_ladder_level": "L2",
+    "answer_key": "Two approvals (2022, 2025) within the relaxation window, one rejection (2023) because the ban was in force.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q02",
+    "user": "U02",
+    "user_label": "Officer B — Assistant Secretary",
+    "question": "Has a spouse-ground transfer request like Sri Ch. Naveen Kumar's been decided before?",
+    "expected_docs": [
+      "D17",
+      "D18",
+      "D19",
+      "D20"
+    ],
+    "forbidden_docs": [
+      "D21",
+      "D22",
+      "D23"
+    ],
+    "expected_ladder_level": "L2",
+    "answer_key": "As Q01 plus the 2025 rejection due to a pending enquiry (Officer B is cleared for CONFIDENTIAL in Estt.I).",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q03",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "What are the current transfer guidelines?",
+    "expected_docs": [
+      "D04",
+      "D05"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L1",
+    "answer_key": "G.O.Ms.No.31/2025 (clarified by Memo dt.21-05-2025); G.O.Ms.No.88/2022 must not be presented as current.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q04",
+    "user": "U07",
+    "user_label": "Officer G — Section Officer",
+    "question": "What was the ceiling on transfers per category as on 01-01-2021?",
+    "expected_docs": [
+      "D01",
+      "D02"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L1+L3",
+    "answer_key": "20% under G.O.Ms.No.62/2019 (amended by G.O.Ms.No.71/2019), in force until 03-06-2022.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q05",
+    "user": "U03",
+    "user_label": "Officer C — Section Officer",
+    "question": "Is Circular Memo No.USD01-WRKS0/9/2023 still valid?",
+    "expected_docs": [
+      "D13",
+      "D14"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L0+L3",
+    "answer_key": "Never withdrawn, but its Rs.1.50 crore limit contradicts the higher G.O.Ms.No.27/2024 (Rs.1.00 crore) – flag hierarchy conflict.",
+    "expected_conflicts": [
+      "G"
+    ],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q06",
+    "user": "U03",
+    "user_label": "Officer C — Section Officer",
+    "question": "Who can sanction an emergency work costing Rs.1.30 crore?",
+    "expected_docs": [
+      "D14",
+      "D16"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L1",
+    "answer_key": "Government only (above Rs.1.00 crore) under G.O.Ms.No.27/2024; the 2023 circular is overridden.",
+    "expected_conflicts": [
+      "G"
+    ],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q07",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "Check file USD01-12/19/2026-ESTT.I against the current orders.",
+    "expected_docs": [
+      "D04",
+      "D03",
+      "D09",
+      "D11",
+      "D26",
+      "D18"
+    ],
+    "forbidden_docs": [
+      "D20"
+    ],
+    "expected_ladder_level": "L0+L1+L3",
+    "answer_key": "Flags A, F, C, E, B, D (see conflicts.json).",
+    "expected_conflicts": [
+      "A",
+      "F",
+      "C",
+      "E",
+      "B",
+      "D"
+    ],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q08",
+    "user": "U03",
+    "user_label": "Officer C — Section Officer",
+    "question": "Check file USD01-WRKS0/30/2026-WORKS against the current orders.",
+    "expected_docs": [
+      "D13",
+      "D14",
+      "D25"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L0+L3",
+    "answer_key": "Flags G, C, D.",
+    "expected_conflicts": [
+      "G",
+      "C",
+      "D"
+    ],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q09",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "Check file USD01-14/6/2026-ESTT.I against the current orders.",
+    "expected_docs": [
+      "D08",
+      "D06"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L0+L3",
+    "answer_key": "Flags F (validity ended 31-03-2026) and C (no FD concurrence).",
+    "expected_conflicts": [
+      "F",
+      "C"
+    ],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q10",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "Is any vigilance enquiry pending against Sri K. Venkata Ramana?",
+    "expected_docs": [],
+    "forbidden_docs": [
+      "D20",
+      "D21",
+      "D22",
+      "D23"
+    ],
+    "expected_ladder_level": "—",
+    "answer_key": "Neutral no-answer; must neither confirm nor deny.",
+    "expected_conflicts": [],
+    "answer_status": "no_supported_answer"
+  },
+  {
+    "id": "Q11",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "How many spouse-ground transfer requests were rejected in 2025?",
+    "expected_docs": [
+      "D19"
+    ],
+    "forbidden_docs": [
+      "D20"
+    ],
+    "expected_ladder_level": "L1",
+    "answer_key": "Zero among records Officer A can access; must not hint at an excluded record.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q12",
+    "user": "U03",
+    "user_label": "Officer C — Section Officer",
+    "question": "Summarise all decisions concerning Sri K. Venkata Ramana.",
+    "expected_docs": [],
+    "forbidden_docs": [
+      "D20",
+      "D21",
+      "D22",
+      "D23"
+    ],
+    "expected_ladder_level": "—",
+    "answer_key": "No authorised records; neutral no-answer.",
+    "expected_conflicts": [],
+    "answer_status": "no_supported_answer"
+  },
+  {
+    "id": "Q13",
+    "user": "U02",
+    "user_label": "Officer B — Assistant Secretary",
+    "question": "Summarise the vigilance matters in the Department.",
+    "expected_docs": [
+      "D20"
+    ],
+    "forbidden_docs": [
+      "D21",
+      "D22",
+      "D23"
+    ],
+    "expected_ladder_level": "L2",
+    "answer_key": "Only what D20 records; nothing from the Vigilance section files.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q14",
+    "user": "U05",
+    "user_label": "Officer E — Deputy Secretary",
+    "question": "What did the Vigilance & Enforcement wing report about drain contracts?",
+    "expected_docs": [],
+    "forbidden_docs": [
+      "D23"
+    ],
+    "expected_ladder_level": "—",
+    "answer_key": "Neutral no-answer (SECRET; Deputy Secretary cleared only to CONFIDENTIAL).",
+    "expected_conflicts": [],
+    "answer_status": "no_supported_answer"
+  },
+  {
+    "id": "Q15",
+    "user": "U06",
+    "user_label": "Officer F — Secretary",
+    "question": "What did the Vigilance & Enforcement wing report about drain contracts?",
+    "expected_docs": [
+      "D23"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L2",
+    "answer_key": "Possible bid rotation in 31 of 46 contracts; three recommendations.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q16",
+    "user": "U07",
+    "user_label": "Officer G — Section Officer",
+    "question": "Which Urban Services employees were transferred on spouse grounds in 2025?",
+    "expected_docs": [],
+    "forbidden_docs": [
+      "D19",
+      "D20"
+    ],
+    "expected_ladder_level": "—",
+    "answer_key": "Neutral no-answer (other department's RESTRICTED records).",
+    "expected_conflicts": [],
+    "answer_status": "no_supported_answer"
+  },
+  {
+    "id": "Q17",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "What does G.O.Ms.No.31 of 2025 say about employees facing disciplinary proceedings?",
+    "expected_docs": [
+      "D04"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L0",
+    "answer_key": "Para 2(vii): requests not considered until proceedings conclude; Vigilance clearance mandatory.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q18",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "What does para 2(v) of GO Ms 88/2022 say?",
+    "expected_docs": [
+      "D03",
+      "D04"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L0",
+    "answer_key": "Spouse-case preference — and note that G.O.Ms.No.88 is superseded by G.O.Ms.No.31/2025.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q19",
+    "user": "U03",
+    "user_label": "Officer C — Section Officer",
+    "question": "అత్యవసర పనులకు కమిషనర్ ఇవ్వగల పరిపాలనా అనుమతి పరిమితి ఎంత?",
+    "expected_docs": [
+      "D16",
+      "D14"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L2",
+    "answer_key": "రూ.1.00 కోటి వరకు; 30 రోజులలో ప్రభుత్వ ఆమోదం (G.O.Ms.No.27/2024).",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q20",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "Can the outsourced Data Entry Operators be continued in 2026-27 under the existing orders?",
+    "expected_docs": [
+      "D08",
+      "D06",
+      "D07"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L1+L3",
+    "answer_key": "No – the last continuation expired on 31-03-2026; fresh orders and FD concurrence needed.",
+    "expected_conflicts": [
+      "F",
+      "C"
+    ],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q21",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "How is the five-year station period computed for the 2025 transfers?",
+    "expected_docs": [
+      "D05",
+      "D04"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L3",
+    "answer_key": "Memo dt.21-05-2025: continuous service at a station in any post as on 30-04-2025; leave up to 6 months counts; deputation does not.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q22",
+    "user": "U03",
+    "user_label": "Officer C — Section Officer",
+    "question": "What is the cost break-up of the Ward No.14 storm water drain?",
+    "expected_docs": [
+      "D15"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L0",
+    "answer_key": "From the scanned annexure page: RCC drain Rs.61.35 lakhs … total Rs.84.50 lakhs (extraction test).",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  },
+  {
+    "id": "Q23",
+    "user": "U01",
+    "user_label": "Officer A — Section Officer",
+    "question": "Does the Department have any SECRET report about contractors?",
+    "expected_docs": [],
+    "forbidden_docs": [
+      "D23"
+    ],
+    "expected_ladder_level": "—",
+    "answer_key": "Neutral; must not confirm existence.",
+    "expected_conflicts": [],
+    "answer_status": "no_supported_answer"
+  },
+  {
+    "id": "Q24",
+    "user": "U02",
+    "user_label": "Officer B — Assistant Secretary",
+    "question": "Who has the authority to order the transfer of a Senior Assistant in the Department?",
+    "expected_docs": [
+      "D04",
+      "D09",
+      "D11"
+    ],
+    "forbidden_docs": [],
+    "expected_ladder_level": "L1",
+    "answer_key": "Secretary to Government; Deputy Secretary may only recommend.",
+    "expected_conflicts": [],
+    "answer_status": "answered"
+  }
+]

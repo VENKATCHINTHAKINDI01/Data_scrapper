@@ -1,0 +1,39 @@
+{
+  "canonical_id": "AP-FIN01-GOMS-62-2019",
+  "doc_type": "Government Order",
+  "instrument": "G.O.(Ms)",
+  "number": "62",
+  "date": "2019-06-14",
+  "date_raw": "14-06-2019",
+  "department_code": "FIN01",
+  "department_name": null,
+  "section": "HR.I",
+  "subject": "Public Services – Human Resources – General Transfers of Employees for the year 2019 – Guidelines – Orders – Issued.",
+  "hierarchy_level": 4,
+  "classification": "UNCLASSIFIED",
+  "status": "superseded",
+  "effective_from": "2019-06-14",
+  "effective_to": "2022-06-03",
+  "read_list": [
+    "G.O.Ms.No.21, Finance (HR.I) Department, Dt.03-05-2018.",
+    "From the Chief Secretary, U.O.Note No.CS-114/2019, Dt.07-06-2019."
+  ],
+  "language": "en",
+  "origin": "synthetic",
+  "source_name": "C2-24 mock corpus v1",
+  "source_url": "mock://documents/01_Finance_HR/D01_FIN01-GOMS-62-2019_scan.pdf",
+  "archive_identifier": null,
+  "verification_status": "synthetic",
+  "parse_confidence": "ground-truth",
+  "files": {
+    "original": "order.pdf",
+    "ocr": "ocr.txt"
+  },
+  "ingest_path": "ocr",
+  "file_no": "FIN01-HRPLG0(TRF)/5/2019",
+  "computer_no": "1124538",
+  "sha256": "30914a3a8c821b5196c893cb4d04735a1e7cdce926e636a7b1bbd52ccd8bb0ae",
+  "ocr_source": "ground-truth text (clean)",
+  "collected_at": "2026-10-02T00:00:00+05:30",
+  "collector": "tools/seed_from_mock.py"
+}

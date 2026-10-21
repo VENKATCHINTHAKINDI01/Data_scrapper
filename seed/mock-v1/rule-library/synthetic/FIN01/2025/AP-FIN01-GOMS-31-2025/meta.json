@@ -1,0 +1,40 @@
+{
+  "canonical_id": "AP-FIN01-GOMS-31-2025",
+  "doc_type": "Government Order",
+  "instrument": "G.O.(Ms)",
+  "number": "31",
+  "date": "2025-05-12",
+  "date_raw": "12-05-2025",
+  "department_code": "FIN01",
+  "department_name": null,
+  "section": "HR.I",
+  "subject": "Public Services – Human Resources – General Transfers of Employees for the year 2025 – Guidelines – Orders – Issued.",
+  "hierarchy_level": 4,
+  "classification": "UNCLASSIFIED",
+  "status": "active",
+  "effective_from": "2025-05-12",
+  "effective_to": null,
+  "read_list": [
+    "G.O.Ms.No.88, Finance (HR.I-Plg. & Policy) Department, Dt.03-06-2022.",
+    "G.O.Ms.No.19, General Administration (Ser.A) Department, Dt.09-02-2018.",
+    "Circular Memo No.GAD01-SERA0/3/2023, General Administration (Ser.A) Department, Dt.14-08-2023."
+  ],
+  "language": "en+te",
+  "origin": "synthetic",
+  "source_name": "C2-24 mock corpus v1",
+  "source_url": "mock://documents/01_Finance_HR/D04_FIN01-GOMS-31-2025.pdf",
+  "archive_identifier": null,
+  "verification_status": "synthetic",
+  "parse_confidence": "ground-truth",
+  "files": {
+    "original": "order.pdf",
+    "ocr": "ocr.txt"
+  },
+  "ingest_path": "native",
+  "file_no": "FIN01-HRPLG0(TRF)/3/2025",
+  "computer_no": "2617734",
+  "sha256": "00f7e54e2ea8d959130157b20f4d53aef14e24d30b51015878be7e0bbc4c4587",
+  "ocr_source": "ground-truth text (clean)",
+  "collected_at": "2026-10-02T00:00:00+05:30",
+  "collector": "tools/seed_from_mock.py"
+}

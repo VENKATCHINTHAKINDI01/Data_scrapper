@@ -1,0 +1,5 @@
+internetarchive>=5.0
+requests>=2.31
+pypdf>=4.0
+pyyaml>=6.0
+google-cloud-storage>=2.16   # only needed from Monday (Step 9)

@@ -1,0 +1,38 @@
+{
+  "canonical_id": "AP-USD01-GOMS-14-2021",
+  "doc_type": "Government Order",
+  "instrument": "G.O.(Ms)",
+  "number": "14",
+  "date": "2021-03-18",
+  "date_raw": "18-03-2021",
+  "department_code": "USD01",
+  "department_name": null,
+  "section": "WORKS",
+  "subject": "Urban Services – Works – Delegation of powers for according administrative sanction to works – Orders – Issued.",
+  "hierarchy_level": 4,
+  "classification": "UNCLASSIFIED",
+  "status": "superseded",
+  "effective_from": "2021-03-18",
+  "effective_to": "2024-08-06",
+  "read_list": [
+    "From the Commissioner, Urban Services, Lr.No.USD-W/412/2020, Dt.11-12-2020."
+  ],
+  "language": "en",
+  "origin": "synthetic",
+  "source_name": "C2-24 mock corpus v1",
+  "source_url": "mock://documents/03_Urban_Services/Works/D12_USD01-GOMS-14-2021.pdf",
+  "archive_identifier": null,
+  "verification_status": "synthetic",
+  "parse_confidence": "ground-truth",
+  "files": {
+    "original": "order.pdf",
+    "ocr": "ocr.txt"
+  },
+  "ingest_path": "native",
+  "file_no": "USD01-WRKS0(DEL)/2/2021",
+  "computer_no": "1520876",
+  "sha256": "7847d96cc76905d127a49206f30cf667e264d63f8c51ffd13b1821095af41029",
+  "ocr_source": "ground-truth text (clean)",
+  "collected_at": "2026-10-02T00:00:00+05:30",
+  "collector": "tools/seed_from_mock.py"
+}

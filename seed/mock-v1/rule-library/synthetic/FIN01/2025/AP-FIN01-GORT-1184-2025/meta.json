@@ -1,0 +1,39 @@
+{
+  "canonical_id": "AP-FIN01-GORT-1184-2025",
+  "doc_type": "Government Order",
+  "instrument": "G.O.(Rt)",
+  "number": "1184",
+  "date": "2025-03-21",
+  "date_raw": "21-03-2025",
+  "department_code": "FIN01",
+  "department_name": null,
+  "section": "HR.I",
+  "subject": "Public Services – Continuation of contract and outsourcing services in all Departments for the period from 01-04-2025 to 31-03-2026 – Orders – Issued.",
+  "hierarchy_level": 5,
+  "classification": "UNCLASSIFIED",
+  "status": "expired",
+  "effective_from": "2025-04-01",
+  "effective_to": "2026-03-31",
+  "read_list": [
+    "G.O.Ms.No.40, Finance (HR.I-Plg. & Policy) Department, Dt.28-04-2020.",
+    "Circular Memo No.FIN01-HROPDPP(OUTS)/7/2024, Finance (HR.I) Department, Dt.27-03-2024."
+  ],
+  "language": "en",
+  "origin": "synthetic",
+  "source_name": "C2-24 mock corpus v1",
+  "source_url": "mock://documents/01_Finance_HR/D08_FIN01-GORT-1184-2025.pdf",
+  "archive_identifier": null,
+  "verification_status": "synthetic",
+  "parse_confidence": "ground-truth",
+  "files": {
+    "original": "order.pdf",
+    "ocr": "ocr.txt"
+  },
+  "ingest_path": "native",
+  "file_no": "FIN01-HROPDPP(OUTS)/4/2025",
+  "computer_no": "2584417",
+  "sha256": "9f0675715bdfe64261a7bf82fffbf9f559dcba70dc3aadae84932d062f3fe281",
+  "ocr_source": "ground-truth text (clean)",
+  "collected_at": "2026-10-02T00:00:00+05:30",
+  "collector": "tools/seed_from_mock.py"
+}

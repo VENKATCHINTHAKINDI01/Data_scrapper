@@ -1,0 +1,40 @@
+{
+  "canonical_id": "AP-FIN01-GOMS-88-2022",
+  "doc_type": "Government Order",
+  "instrument": "G.O.(Ms)",
+  "number": "88",
+  "date": "2022-06-03",
+  "date_raw": "03-06-2022",
+  "department_code": "FIN01",
+  "department_name": null,
+  "section": "HR.I",
+  "subject": "Public Services – Human Resources – General Transfers of Employees for the year 2022 – Guidelines – Orders – Issued.",
+  "hierarchy_level": 4,
+  "classification": "UNCLASSIFIED",
+  "status": "superseded",
+  "effective_from": "2022-06-03",
+  "effective_to": "2025-05-12",
+  "read_list": [
+    "G.O.Ms.No.62, Finance (HR.I-Plg. & Policy) Department, Dt.14-06-2019.",
+    "G.O.Ms.No.71, Finance (HR.I-Plg. & Policy) Department, Dt.28-06-2019.",
+    "G.O.Ms.No.19, General Administration (Ser.A) Department, Dt.09-02-2018."
+  ],
+  "language": "en",
+  "origin": "synthetic",
+  "source_name": "C2-24 mock corpus v1",
+  "source_url": "mock://documents/01_Finance_HR/D03_FIN01-GOMS-88-2022.pdf",
+  "archive_identifier": null,
+  "verification_status": "synthetic",
+  "parse_confidence": "ground-truth",
+  "files": {
+    "original": "order.pdf",
+    "ocr": "ocr.txt"
+  },
+  "ingest_path": "native",
+  "file_no": "FIN01-HRPLG0(TRF)/9/2022",
+  "computer_no": "1752209",
+  "sha256": "c6602f2ae71f821e0d3c338ea808179d57db50d7775b25c5adc0aad1602677a7",
+  "ocr_source": "ground-truth text (clean)",
+  "collected_at": "2026-10-02T00:00:00+05:30",
+  "collector": "tools/seed_from_mock.py"
+}

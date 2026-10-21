@@ -1,0 +1,38 @@
+{
+  "canonical_id": "AP-FIN01-GOMS-40-2020",
+  "doc_type": "Government Order",
+  "instrument": "G.O.(Ms)",
+  "number": "40",
+  "date": "2020-04-28",
+  "date_raw": "28-04-2020",
+  "department_code": "FIN01",
+  "department_name": null,
+  "section": "HR.I",
+  "subject": "Public Services – Contract and Outsourcing services in Government Departments – Prior concurrence of Finance Department – Instructions – Orders – Issued.",
+  "hierarchy_level": 4,
+  "classification": "UNCLASSIFIED",
+  "status": "active",
+  "effective_from": "2020-04-28",
+  "effective_to": null,
+  "read_list": [
+    "G.O.Ms.No.151, Finance (HR.I) Department, Dt.14-07-2006."
+  ],
+  "language": "en",
+  "origin": "synthetic",
+  "source_name": "C2-24 mock corpus v1",
+  "source_url": "mock://documents/01_Finance_HR/D06_FIN01-GOMS-40-2020.pdf",
+  "archive_identifier": null,
+  "verification_status": "synthetic",
+  "parse_confidence": "ground-truth",
+  "files": {
+    "original": "order.pdf",
+    "ocr": "ocr.txt"
+  },
+  "ingest_path": "native",
+  "file_no": "FIN01-HROPDPP(OUTS)/2/2020",
+  "computer_no": "1398820",
+  "sha256": "fd9a8640bb96c8abb465c37130ea4d185dc4cf1228d8794d35ea86c73a2556c6",
+  "ocr_source": "ground-truth text (clean)",
+  "collected_at": "2026-10-02T00:00:00+05:30",
+  "collector": "tools/seed_from_mock.py"
+}

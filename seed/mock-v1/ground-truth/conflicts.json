@@ -1,0 +1,115 @@
+[
+  {
+    "in": "D27",
+    "type": "A",
+    "name": "Superseded reference",
+    "evidence": [
+      "D03",
+      "D04"
+    ],
+    "detail": "Cites G.O.Ms.No.88/2022, superseded by G.O.Ms.No.31/2025."
+  },
+  {
+    "in": "D27",
+    "type": "F",
+    "name": "Temporal mismatch",
+    "evidence": [
+      "D04"
+    ],
+    "detail": "Transfer proposed in Sept 2026; 2025 relaxation window was 15-05-2025 to 31-05-2025; ban in force, no relaxation for 2026."
+  },
+  {
+    "in": "D27",
+    "type": "C",
+    "name": "Procedural / wrong authority",
+    "evidence": [
+      "D04",
+      "D09",
+      "D11"
+    ],
+    "detail": "Proposes approval by Deputy Secretary; competent authority for Senior Assistant transfer is the Secretary to Government."
+  },
+  {
+    "in": "D27",
+    "type": "E",
+    "name": "Missing authority",
+    "evidence": [],
+    "detail": "Cites G.O.Ms.No.104, Finance (HR.I) Dept., Dt.02-01-2026 — not present in the corpus."
+  },
+  {
+    "in": "D27",
+    "type": "B",
+    "name": "Direct rule contradiction",
+    "evidence": [
+      "D04",
+      "D26"
+    ],
+    "detail": "Proposes exceeding the 15% ceiling 'as a special case'; G.O.Ms.No.31 forbids relaxation without FD concurrence."
+  },
+  {
+    "in": "D27",
+    "type": "D",
+    "name": "Precedent inconsistency",
+    "evidence": [
+      "D18"
+    ],
+    "detail": "Comparable 2023 out-of-window spouse request was not agreed while the ban was in force."
+  },
+  {
+    "in": "D28",
+    "type": "G",
+    "name": "Hierarchy conflict",
+    "evidence": [
+      "D13",
+      "D14"
+    ],
+    "detail": "Relies on a Circular Memo (Rs.1.50 crore) that contradicts the higher G.O.Ms.No.27/2024 (Rs.1.00 crore for emergency works)."
+  },
+  {
+    "in": "D28",
+    "type": "C",
+    "name": "Procedural / wrong authority",
+    "evidence": [
+      "D14"
+    ],
+    "detail": "Works above Rs.1.00 crore are to be sanctioned by the Government only."
+  },
+  {
+    "in": "D28",
+    "type": "D",
+    "name": "Precedent inconsistency",
+    "evidence": [
+      "D25",
+      "D24"
+    ],
+    "detail": "2024 emergency work of Rs.1.40 crore was sanctioned by Government; 2023 Rs.1.20 crore by Commissioner predates G.O.Ms.No.27."
+  },
+  {
+    "in": "D29",
+    "type": "F",
+    "name": "Temporal mismatch",
+    "evidence": [
+      "D08"
+    ],
+    "detail": "Relies on G.O.Rt.No.1184/2025, whose validity ended on 31-03-2026."
+  },
+  {
+    "in": "D29",
+    "type": "C",
+    "name": "Procedural / missing concurrence",
+    "evidence": [
+      "D06"
+    ],
+    "detail": "Continuation without prior Finance Department concurrence, contrary to G.O.Ms.No.40/2020."
+  },
+  {
+    "in": "D13",
+    "type": "G",
+    "name": "Hierarchy conflict (standing)",
+    "evidence": [
+      "D13",
+      "D14"
+    ],
+    "detail": "Circular Memo of 2023 was never withdrawn but now contradicts G.O.Ms.No.27/2024."
+  }
+]

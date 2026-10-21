@@ -1,0 +1,39 @@
+{
+  "canonical_id": "AP-USD01-GORT-233-2024",
+  "doc_type": "Government Order",
+  "instrument": "G.O.(Rt)",
+  "number": "233",
+  "date": "2024-09-10",
+  "date_raw": "10-09-2024",
+  "department_code": "USD01",
+  "department_name": null,
+  "section": "WORKS",
+  "subject": "Urban Services – Works – Seetharampuram Municipal Corporation – Construction of storm water drain in Ward No.14 – Administrative sanction for Rs.84.50 lakhs – Accorded.",
+  "hierarchy_level": 5,
+  "classification": "UNCLASSIFIED",
+  "status": "active",
+  "effective_from": "2024-09-10",
+  "effective_to": null,
+  "read_list": [
+    "G.O.Ms.No.27, Urban Services (Works) Department, Dt.06-08-2024.",
+    "From the Commissioner, Urban Services, Lr.No.USD-W/156/2024, Dt.22-08-2024."
+  ],
+  "language": "en",
+  "origin": "synthetic",
+  "source_name": "C2-24 mock corpus v1",
+  "source_url": "mock://documents/03_Urban_Services/Works/D15_USD01-GORT-233-2024_mixed.pdf",
+  "archive_identifier": null,
+  "verification_status": "synthetic",
+  "parse_confidence": "ground-truth",
+  "files": {
+    "original": "order.pdf",
+    "ocr": "ocr.txt"
+  },
+  "ingest_path": "per-page (p1 native, p2 OCR)",
+  "file_no": "USD01-WRKS0/41/2024",
+  "computer_no": "2418873",
+  "sha256": "a119ded5b714bd1cfa55a232705f81ce7c6aeeacf4cba62f7b1c2b2efd6f6337",
+  "ocr_source": "ground-truth text (clean)",
+  "collected_at": "2026-10-02T00:00:00+05:30",
+  "collector": "tools/seed_from_mock.py"
+}

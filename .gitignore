@@ -1,0 +1,11 @@
+# collected data (real public PDFs, OCR, manifests, synthetic e-files) — synced to GCS, not git
+staging/
+inbox/
+logs/
+_archive/
+
+# environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
